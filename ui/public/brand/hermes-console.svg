@@ -1,0 +1,50 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="base" x1="176" y1="142" x2="856" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AD8FF"/>
+      <stop offset="0.35" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0B1024"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(312 232) rotate(56) scale(650)">
+      <stop stop-color="#A7F3FF" stop-opacity="0.95"/>
+      <stop offset="0.38" stop-color="#60A5FA" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#0B1024" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hFill" x1="512" y1="286" x2="512" y2="716" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.58" stop-color="#F1F7FF"/>
+      <stop offset="1" stop-color="#D8E6FF"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="322" y1="692" x2="716" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+    <filter id="drop" x="54" y="60" width="916" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="34" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+    <filter id="hShadow" x="286" y="254" width="452" height="522" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#020617" flood-opacity="0.32"/>
+    </filter>
+    <clipPath id="clip"><rect x="92" y="92" width="840" height="840" rx="198"/></clipPath>
+  </defs>
+  <g filter="url(#drop)">
+    <rect x="92" y="92" width="840" height="840" rx="198" fill="url(#base)"/>
+    <rect x="92" y="92" width="840" height="840" rx="198" fill="url(#glow)"/>
+    <g clip-path="url(#clip)">
+      <path d="M120 142C274 92 724 83 903 184C841 240 741 274 601 286C406 303 240 262 120 142Z" fill="white" fill-opacity="0.2"/>
+      <path d="M159 832C346 911 678 910 873 765" stroke="white" stroke-opacity="0.16" stroke-width="34"/>
+    </g>
+    <rect x="110" y="110" width="804" height="804" rx="180" stroke="white" stroke-opacity="0.22" stroke-width="4"/>
+    <ellipse cx="512" cy="514" rx="292" ry="292" stroke="white" stroke-opacity="0.16" stroke-width="16"/>
+    <path d="M335 683C405 728 531 747 642 696C691 674 728 641 754 606" stroke="url(#rail)" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="744" cy="310" r="35" fill="#A7F3FF"/>
+    <circle cx="744" cy="310" r="54" stroke="#A7F3FF" stroke-opacity="0.22" stroke-width="10"/>
+    <g filter="url(#hShadow)">
+      <rect x="344" y="288" width="126" height="430" rx="58" fill="url(#hFill)"/>
+      <rect x="554" y="288" width="126" height="430" rx="58" fill="url(#hFill)"/>
+      <rect x="405" y="455" width="214" height="104" rx="52" fill="url(#hFill)"/>
+    </g>
+    <path d="M392 330V667" stroke="white" stroke-opacity="0.38" stroke-width="16" stroke-linecap="round"/>
+    <path d="M602 330V667" stroke="white" stroke-opacity="0.28" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
