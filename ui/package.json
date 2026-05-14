@@ -99,7 +99,7 @@
     }
   },
   "productName": "Hermes Console",
-  "description": "Hermes Agent desktop control plane.",
+  "description": "One-click Hermes installer and guided configuration desktop client.",
   "build": {
     "appId": "com.hermes.console",
     "productName": "Hermes Console",

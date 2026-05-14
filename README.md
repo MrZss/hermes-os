@@ -4,7 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Electron](https://img.shields.io/badge/Electron-Desktop-47848f)](ui/package.json)
 
-Hermes Console 是面向 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 的桌面控制台。它把 Hermes 的本地/远程实例创建、环境检查、AI 提供商配置、消息平台接入和会话调试集中到一个简单的 macOS / Windows 客户端里，目标是让新用户用最少配置把 Hermes 跑起来。
+Hermes Console 的宗旨是：**一键安装 Hermes，并用最少步骤完成 AI 供应商、消息平台和运行环境配置**。它把 Hermes 的本地/远程实例创建、环境检查、AI 提供商配置、消息平台接入和会话调试集中到一个简单的 macOS / Windows 客户端里，让新用户不用理解复杂命令也能把 Hermes 跑起来。
+
+**English:** Hermes Console is a desktop client for [Hermes Agent](https://github.com/NousResearch/hermes-agent). Its mission is to provide one-click Hermes installation and guided configuration for AI providers, messaging platforms, and runtime environments, so new users can get Hermes running with minimal setup.
 
 > 当前项目以中文界面和中文文档为主。README 面向开源用户，`docs/` 目录保留产品基线、页面规则和 Codex 开发约束。
 

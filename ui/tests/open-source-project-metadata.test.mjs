@@ -41,6 +41,8 @@ for (const command of ["npm ci", "npm run desktop:dev", "npm run build", "npm ru
 }
 assert.match(readme, /Hermes Agent/i, "README 应说明与 Hermes Agent 的关系。");
 assert.match(readme, /macOS|Windows/, "README 应说明桌面端平台。");
+assert.match(readme, /一键安装 Hermes/, "README 应明确产品宗旨是一键安装 Hermes。");
+assert.match(readme, /English:[\s\S]*one-click Hermes installation/i, "README 应包含英文版产品描述。");
 assert.doesNotMatch(readme, /文档包 v1|不是给外部看的介绍材料/, "根 README 不应再是内部文档包说明。");
 
 const license = read("LICENSE");
@@ -74,5 +76,6 @@ const pkg = JSON.parse(read("ui/package.json"));
 assert.equal(pkg.license, "MIT", "package.json 应声明 MIT license。 ");
 assert.notEqual(pkg.private, true, "开源项目 package.json 不应标记为 private true。 ");
 assert.ok(Array.isArray(pkg.keywords) && pkg.keywords.includes("electron"), "package.json 应包含 GitHub/NPM 常见关键词。 ");
+assert.match(pkg.description, /One-click Hermes installer/i, "package.json description 应体现一键安装 Hermes 的定位。");
 
 console.log("open source project metadata assertions passed");

@@ -1,6 +1,8 @@
 # Hermes Console 使用说明
 
-Hermes Console 是 Hermes Agent 的桌面控制台，面向“少配置、快跑通”的本地和服务器实例管理。
+Hermes Console 的宗旨是：一键安装 Hermes，并用最少步骤完成 AI 供应商、消息平台和运行环境配置。
+
+English: Hermes Console provides one-click Hermes installation and guided configuration for AI providers, messaging platforms, and runtime environments.
 
 ## 1. 安装与启动
 
@@ -101,4 +103,3 @@ AI 供应商和消息平台都配置完成后，可以进入：
 for f in ui/tests/*.test.mjs; do node "$f"; done
 cd ui && npm run build
 ```
-

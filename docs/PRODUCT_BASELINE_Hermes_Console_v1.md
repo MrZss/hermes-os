@@ -48,7 +48,9 @@
 
 ### 2.1 一句话定义
 
-**Hermes Console 是一款桌面客户端，用于安装、连接、配置、聊天、管理和运维 Hermes Agent。**
+**Hermes Console 是一款桌面客户端，宗旨是一键安装 Hermes，并用最少步骤完成 AI 供应商、消息平台和运行环境配置。**
+
+**English:** Hermes Console is a desktop client for one-click Hermes installation and guided configuration across AI providers, messaging platforms, and runtime environments.
 
 ### 2.2 产品角色
 

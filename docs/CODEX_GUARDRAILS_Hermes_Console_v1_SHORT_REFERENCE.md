@@ -7,6 +7,7 @@
 Hermes Console 是：
 
 - 桌面客户端
+- 宗旨是一键安装 Hermes，并用最少步骤完成配置
 - Hermes Agent 的安装 / 连接 / 配置 / 会话 / 运维控制台
 - 面向本地和远程 Linux 实例的图形化管理工具
 
@@ -133,4 +134,3 @@ Hermes Console 是：
 当临时需求、即时 prompt、或 Codex 自主建议与产品基线冲突时：
 
 **以 PRODUCT_BASELINE_Hermes_Console_v1.md 为准。**
-
